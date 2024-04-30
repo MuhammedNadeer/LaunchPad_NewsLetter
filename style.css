@@ -35,7 +35,7 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: rgb(255, 242, 226);
     width: 82%;
     margin: auto;
     margin-top: 20px;
@@ -44,16 +44,17 @@ span{
 .left{
     padding-left: 20px;
     text-align: left;
-    background-color: antiquewhite;
+    background-color: white;
     display: flex;
 }
 
 .right{
-    padding-right: 10px;
-    text-align: right;
+    padding-left: 20px;
+    display: flex;
 }
 
-h1{
+.text-box h1{
+    color: rgb(239, 126, 40);
     font-family: 'Raleway';
     font-size: 50px;
     text-decoration-style: solid;
@@ -70,16 +71,33 @@ p{
     margin-left: 10px;
 }
 
-.left img{
+.img-box img{
     padding-top: 30px;
     width: 80%;
     height: 80%;
 }
 
 .img-box{
+    margin: auto;
     width: 50%;
 }
 
-.text-box{
+.text-box, .text-box2{
     width: 50%;
+}
+
+.text-box2{
+    padding-right: 20px;
+}
+
+.right li{
+    font-family: Open Sans,sans-serif;
+    font-size: 20px;
+}
+
+.text-box2 h1{
+    color: rgb(239, 126, 40);
+    font-family: 'Raleway';
+    font-size: 50px;
+    text-decoration-style: solid;
 }
