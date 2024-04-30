@@ -6,8 +6,6 @@ body {
     height: 100%;
 }
 
-
-
 .logo{
     margin-top: 4rem;
     margin-left: 10rem;
@@ -31,4 +29,57 @@ body {
 
 span{
     color: rgb(252, 134, 43);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: bisque;
+    width: 82%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.left{
+    padding-left: 20px;
+    text-align: left;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.right{
+    padding-right: 10px;
+    text-align: right;
+}
+
+h1{
+    font-family: 'Raleway';
+    font-size: 50px;
+    text-decoration-style: solid;
+    width: 50%;
+}
+
+p{
+    font-family: Open Sans,sans-serif;    
+}
+
+.left p{
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.left img{
+    padding-top: 30px;
+    width: 80%;
+    height: 80%;
+}
+
+.img-box{
+    width: 50%;
+}
+
+.text-box{
+    width: 50%;
 }
